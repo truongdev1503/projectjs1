@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.listProduct {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+   
+}
+.listProduct .box{
+    width: calc(100% / 3 - 5px);
+    border: solid 2px gray;
+    margin-bottom: 8px;
+    padding: 20px 20px;
+}
+.listProduct .box .thumbnail img{
+    width: 100%;
+    height: auto;
+
+}
+.nextPage a{
+    color: white;
+    padding: 5px 5px;
+    /* border-radius: 10px; */
+    background-color: green;
+    margin-right: 5px;
+}
+.cart {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(27, 228, 27);
+    cursor: pointer;
+}
